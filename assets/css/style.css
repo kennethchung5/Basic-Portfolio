@@ -154,7 +154,7 @@ p {
     overflow: auto;
     width: 30%;
     height: 10%;
-    margin: 20px;
+    margin: 20px 40px 20px 0;
     float: left;
     position: relative;
 }
