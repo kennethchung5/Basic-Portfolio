@@ -21,19 +21,29 @@
 
         <div class="mainContent">
             <form>
-                First Name<br>
-                <input type="text" name="firstName"><br>
-                Last Name<br>
-                <input type="text" name="lastName"><br>
-                e-mail<br>
-                <input type="text" name="emailAddress"><br>
+                <div class="firstName">
+                    First Name<br>
+                    <input type="text" name="firstNameInput" class="NameInput"><br>
+                </div>
+                <div class="lastName">
+                    Last Name<br>
+                    <input type="text" name="lastNameInput" class="NameInput"><br>
+                </div>
+                <div class="email">
+                    e-mail<br>
+                    <input type="text" name="emailAddressInput" class="emailInput"><br>
+                </div>
                 Message<br>
-                <input type="text" name="messageText"><br><br>
-                <input type="submit" value="Send">
+                <textarea type="text" name="messageTextInput" class="messageInput"></textarea><br><br>
+                <input type="submit" value="Send" class="sendButton">
             </form>
         </div>
 
     </section>
+
+    <div class="footer">
+            <p id="footerText">Copyright &copy; 2018 Kenneth Chung</p>
+    </div>
     
 </body>
 </html>
