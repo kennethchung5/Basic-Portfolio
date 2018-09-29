@@ -116,13 +116,18 @@ section {
     /* width: 80%; */
 
     overflow: hidden;
-    margin-top: 4%;
+    /* margin-top: 4%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 4%; */
+
+    margin: 4% auto;
 
     background-color: #ffffff;
     /* position: relative; */
     /* border: blue dashed; */
+
+    
 }
 
 .mainContent {
