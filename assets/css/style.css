@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+body {
+    background-image: url("../images/intersection/intersection.png");
+    background-color: aqua;
+
+}
+
+h1 {
+    color: white;
+    background: #4aaaa5;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    left: 0;
+}
+
+header {
+    background-color: #ffffff;
+    border: #cccccc solid thin;
+    overflow-x: hidden;
+}
+
+.headerContent {
+    width: 960px;
+    /* width: 80%; */
+
+    margin: auto;
+    position: relative;
+
+    overflow: hidden;
+    /*temp*/
+    /* border: yellow dashed; */
+}
+
+nav {
+    /* border: red dashed; */
+
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    
+
+}
+
+.pageLink {
+    /* border: blue dashed; */
+    
+
+    /*test space*/
+
+
+
+    margin: 10px;
+    text-decoration: none;
+}
+
+.pageLink:visited {
+    text-decoration: none;
+}
+
+.pageLink:hover {
+    background-color: silver;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 0 20px;
+}
+
+
+h1, h2 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+/* 
+.pageBackground {
+    border: green dashed;
+} */
+
+
+
+section {
+    width: 960px;
+    /* width: 80%; */
+
+    overflow: hidden;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #ffffff;
+    /* position: relative; */
+    /* border: blue dashed; */
+}
+
+.mainContent {
+    /* border: blue dashed; */
+    border-top: #dddddd solid;
+    
+    width: 920px;
+    margin: auto;   
+    
+    position: relative;
+    /* left: 20px; */
+}
+
+p {
+    line-height: 30px;
+    padding: 20px 8px;
+
+    border: red dashed;
+}
+
+img {
+    width:  200px;
+    height: 160px;
+}
+
+.clear {
+    clear: left;
+}
+
+#profileImg {
+    border: green dashed;
+    
+    float: left;
+    width: 25%;
+
+    /* margin-top: 20px; */
+    padding-top: 8px;
+    
+    opacity: .25;
+
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+
+#firstPara {
+
+    float: right;
+
+    height: 160px;
+    width: 75%;
+    margin-top: 0;
+}
