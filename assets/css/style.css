@@ -141,12 +141,15 @@ section {
     /* left: 20px; */
 }
 
+/* 
 p {
     line-height: 30px;
     padding: 20px 8px;
 
-    /* border: red dashed; */
-}
+    border: red dashed;
+} 
+*/
+
 
 .portItem {
     /* border: green dashed; */
@@ -161,6 +164,7 @@ p {
 
 .portItemLabel  {
     /* border: black dashed; */
+    padding: 20px 0;
 
     position: absolute;
     width: 100%;
@@ -192,13 +196,19 @@ img {
     float: left;
     width: 25%;
 
-    /* margin-top: 20px; */
-    padding-top: 8px;
+    margin-top: 20px;
+    padding-right: 20px;
+    /* padding-top: 8px; */
     
     /* opacity: .25; */
 
     /* margin-left: 20px;
     margin-right: 20px; */
+}
+
+.abtMe {
+    padding: 20px 0;
+    line-height: 30px;
 }
 
 #firstPara {
@@ -209,6 +219,8 @@ img {
     width: 75%;
     margin-top: 0;
 }
+
+
 
 form {
     border: blue dashed;
