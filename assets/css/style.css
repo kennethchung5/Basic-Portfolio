@@ -222,57 +222,63 @@ img {
 
 
 
-form {
-    border: blue dashed;
+.form {
+    /* border: blue dashed; */
     position: relative;
+    margin-bottom: 20px;
+}
+
+.firstName, .lastName, .email, .message {
+    margin-top: 15px;
+    padding-top: 3px;
 }
 
 .firstName {
-    border: red dashed;
+    /* border: red dashed; */
     width: 50%;
     float: left;
     
 }
 
 .lastName {
-    border: purple dashed;
+    /* border: purple dashed; */
     width: 50%;
     float: left;   
 }
 
 .email {
-    border: yellow dashed;
+    /* border: yellow dashed; */
+    
+    margin-top: 30px;
+    clear: both;
+}
+
+.message {
+    /* border: green dashed; */
 }
 
 input, textarea {
     background-color: beige;
-    margin: 5px 0;
+    margin: 0;
     width: 100%;
 }
 
-.NameInput {
-    
-    /* width: 60%; */
-    
-}
 
-.emailInput {
-    /* width: 60%; */
-}
 
 .messageInput {
     width: 100%;
     max-width: 100%;
+    min-width: 100%;
     height: 150px;
-
-    border: orange dashed;
+    min-height: 150px;
+    /* border: orange dashed; */
 }
 
 .sendButton {
-    width: 10%;
+    width: 12%;
     color: white;
     background-color: #4aaaa5;
     border: none;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
