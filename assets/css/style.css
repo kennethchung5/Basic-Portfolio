@@ -279,6 +279,15 @@ input, textarea {
     color: white;
     background-color: #4aaaa5;
     border: none;
-    padding: 10px 0;
+    padding: 10px 30px;
+
+    text-decoration: none;
 }
 
+.sendButton:hover {
+    background-color: darkcyan;
+}
+
+.sendButton:active {
+    background-color: yellow;
+}
